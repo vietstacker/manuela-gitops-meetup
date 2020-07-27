@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: line-dashboard-configmap
+data:
+  config.json: |-
+    {
+        "websocketHost": "http://messaging-manuela-stormshift-messaging.apps.ocpcluster3.gemsdemolab.com",
+        "websocketPath": "/api/service-web/socket",
+        "SERVER_TIMEOUT": 20000
+    }

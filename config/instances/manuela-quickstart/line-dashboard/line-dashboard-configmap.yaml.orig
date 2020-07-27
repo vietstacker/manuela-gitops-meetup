@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: line-dashboard-configmap
+data:
+  config.json: |-
+    {
+<<<<<<< HEAD:config/instances/manuela-quickstart/line-dashboard/line-dashboard-configmap.yaml
+        "websocketHost": "http://messaging-manuela-tst-all.apps.cluster-sing-e23f.sing-e23f.example.opentlc.com",
+=======
+        "websocketHost": "http://messaging-manuela-stormshift-messaging.apps.cluster-sing-e23f.sing-e23f.example.opentlc.com",
+>>>>>>> Modify ocp3 to fit the env:config/instances/manuela-stormshift/line-dashboard/line-dashboard-configmap.yaml
+        "websocketPath": "/api/service-web/socket",
+        "SERVER_TIMEOUT": 20000
+    }

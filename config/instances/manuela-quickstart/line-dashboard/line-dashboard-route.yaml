@@ -1,0 +1,6 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: line-dashboard
+spec:
+  host: line-dashboard-manuela-quickstart-line-dashboard.apps.cluster-sing-9a92.sing-9a92.example.opentlc.com

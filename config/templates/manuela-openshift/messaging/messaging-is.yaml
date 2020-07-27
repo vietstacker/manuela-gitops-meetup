@@ -1,0 +1,52 @@
+apiVersion: image.openshift.io/v1
+kind: ImageStream
+metadata:
+  labels:
+    app: messaging
+  name: messaging
+spec:
+  lookupPolicy:
+    local: false
+  tags:
+  - name: 0.3.3-28
+    from:
+      kind: DockerImage
+      name: quay.io/manuela/iot-consumer:0.3.3-28
+    importPolicy: {}
+    referencePolicy:
+      type: Local
+  - name: 0.3.2-73
+    from:
+      kind: DockerImage
+      name: quay.io/manuela/iot-consumer:0.3.2-73
+    importPolicy: {}
+    referencePolicy:
+      type: Local
+  - name: 0.3.3-31
+    from:
+      kind: DockerImage
+      name: quay.io/manuela/iot-consumer:0.3.3-31
+    importPolicy: {}
+    referencePolicy:
+      type: Local
+  - name: 0.3.2-1
+    from:
+      kind: DockerImage
+      name: quay.io/manuela/iot-consumer:0.3.2-1
+    importPolicy: {}
+    referencePolicy:
+      type: Local
+  - name: 0.3.2-4
+    from:
+      kind: DockerImage
+      name: quay.io/manuela/iot-consumer:0.3.2-4
+    importPolicy: {}
+    referencePolicy:
+      type: Local
+  - name: 0.3.2-5
+    from:
+      kind: DockerImage
+      name: quay.io/manuela/iot-consumer:0.3.2-5
+    importPolicy: {}
+    referencePolicy:
+      type: Local
