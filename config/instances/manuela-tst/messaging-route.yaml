@@ -3,4 +3,4 @@ kind: Route
 metadata:
   name: messaging
 spec:
-  host: messaging-manuela-tst-all.apps.ocpcluster3.gemsdemolab.com
+  host: messaging-manuela-tst-all.apps.cluster-sing-1e14.sing-1e14.example.opentlc.com
