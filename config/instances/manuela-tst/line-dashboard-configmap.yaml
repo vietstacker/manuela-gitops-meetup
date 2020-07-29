@@ -5,7 +5,7 @@ metadata:
 data:
   config.json: |-
     {
-        "websocketHost": "http://messaging-manuela-tst-all.apps.ocpcluster3.gemsdemolab.com",
+        "websocketHost": "http://messaging-manuela-tst-all.apps.cluster-sing-1e14.sing-1e14.example.opentlc.com",
         "websocketPath": "/api/service-web/socket",
         "SERVER_TIMEOUT": 20000
     }
