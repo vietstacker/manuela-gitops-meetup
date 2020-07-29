@@ -8,24 +8,24 @@ spec:
   lookupPolicy:
     local: false
   tags:
-  - name: 0.3.3-7
+  - name: 0.3.1-6
     from:
       kind: DockerImage
-      name: quay.io/manuela/iot-software-sensor:0.3.3-7
+      name: quay.io/manuela/iot-software-sensor:0.3.1-6
     importPolicy: {}
     referencePolicy:
       type: Local
-  - name: 0.3.2-1
+  - name: 0.3.1-7
     from:
       kind: DockerImage
-      name: quay.io/manuela/iot-software-sensor:0.3.2-1
+      name: quay.io/manuela/iot-software-sensor:0.3.1-7
     importPolicy: {}
     referencePolicy:
       type: Local
-  - name: 0.3.2-2
+  - name: 0.3.1-8
     from:
       kind: DockerImage
-      name: quay.io/manuela/iot-software-sensor:0.3.2-2
+      name: quay.io/manuela/iot-software-sensor:0.3.1-8
     importPolicy: {}
     referencePolicy:
       type: Local

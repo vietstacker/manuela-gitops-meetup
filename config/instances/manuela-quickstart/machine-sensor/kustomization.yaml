@@ -26,4 +26,4 @@ configMapGenerator:
 images:
 - name: machine-sensor
   newName: image-registry.openshift-image-registry.svc:5000/manuela-quickstart-machine-sensor/machine-sensor
-  newTag: 0.3.2-2
+  newTag: 0.3.1-8
