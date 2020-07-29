@@ -8,45 +8,17 @@ spec:
   lookupPolicy:
     local: false
   tags:
-  - name: 0.3.3-28
+  - name: 0.3.2-13
     from:
       kind: DockerImage
-      name: quay.io/manuela/iot-consumer:0.3.3-28
+      name: quay.io/manuela/iot-consumer:0.3.2-13
     importPolicy: {}
     referencePolicy:
       type: Local
-  - name: 0.3.2-73
+  - name: 0.3.2-14
     from:
       kind: DockerImage
-      name: quay.io/manuela/iot-consumer:0.3.2-73
-    importPolicy: {}
-    referencePolicy:
-      type: Local
-  - name: 0.3.3-31
-    from:
-      kind: DockerImage
-      name: quay.io/manuela/iot-consumer:0.3.3-31
-    importPolicy: {}
-    referencePolicy:
-      type: Local
-  - name: 0.3.2-1
-    from:
-      kind: DockerImage
-      name: quay.io/manuela/iot-consumer:0.3.2-1
-    importPolicy: {}
-    referencePolicy:
-      type: Local
-  - name: 0.3.2-4
-    from:
-      kind: DockerImage
-      name: quay.io/manuela/iot-consumer:0.3.2-4
-    importPolicy: {}
-    referencePolicy:
-      type: Local
-  - name: 0.3.2-5
-    from:
-      kind: DockerImage
-      name: quay.io/manuela/iot-consumer:0.3.2-5
+      name: quay.io/manuela/iot-consumer:0.3.2-14
     importPolicy: {}
     referencePolicy:
       type: Local

@@ -8,52 +8,31 @@ spec:
   lookupPolicy:
     local: false
   tags:
-  - name: build-iot-frontend-0.3.3-4
+  - name: build-iot-frontend-0.3.1-20
     from:
       kind: DockerImage
-      name: quay.io/manuela/iot-frontend:build-iot-frontend-0.3.3-4
+      name: quay.io/manuela/iot-frontend:0.3.1-20
     importPolicy: {}
     referencePolicy:
       type: Local
-  - name: 0.3.3-8
+  - name: 0.3.1-19
     from:
       kind: DockerImage
-      name: quay.io/manuela/iot-frontend:0.3.3-8
+      name: quay.io/manuela/iot-frontend:0.3.1-19
     importPolicy: {}
     referencePolicy:
       type: Local
-  - name: 0.3.3-9
+  - name: 0.3.1-18
     from:
       kind: DockerImage
-      name: quay.io/manuela/iot-frontend:0.3.3-9
+      name: quay.io/manuela/iot-frontend:0.3.1-18
     importPolicy: {}
     referencePolicy:
       type: Local
-  - name: 0.3.3-7
+  - name: 0.3.1-17
     from:
       kind: DockerImage
-      name: quay.io/manuela/iot-frontend:0.3.3-7
-    importPolicy: {}
-    referencePolicy:
-      type: Local
-  - name: 0.3.2-1
-    from:
-      kind: DockerImage
-      name: quay.io/manuela/iot-frontend:0.3.2-1
-    importPolicy: {}
-    referencePolicy:
-      type: Local
-  - name: 0.3.2-2
-    from:
-      kind: DockerImage
-      name: quay.io/manuela/iot-frontend:0.3.2-2
-    importPolicy: {}
-    referencePolicy:
-      type: Local
-  - name: 0.3.2-3
-    from:
-      kind: DockerImage
-      name: quay.io/manuela/iot-frontend:0.3.2-3
+      name: quay.io/manuela/iot-frontend:0.3.1-17
     importPolicy: {}
     referencePolicy:
       type: Local
