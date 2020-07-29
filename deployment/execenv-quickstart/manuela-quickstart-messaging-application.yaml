@@ -8,7 +8,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/vietstacker/manuela-gitops.git
+    repoURL: https://github.com/vietstacker/manuela-gitops-meetup.git
     targetRevision: master
     path: config/instances/manuela-quickstart/messaging
   destination:
