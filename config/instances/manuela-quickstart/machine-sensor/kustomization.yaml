@@ -25,5 +25,5 @@ configMapGenerator:
 
 images:
 - name: machine-sensor
-  newName: quay.io/manuela/iot-software-sensor
-  newTag: quickstart
+  newName: image-registry.openshift-image-registry.svc:5000/manuela-quickstart-machine-sensor/machine-sensor
+  newTag: 0.3.2-2
