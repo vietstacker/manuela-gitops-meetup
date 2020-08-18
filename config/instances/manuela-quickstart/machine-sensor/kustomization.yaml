@@ -1,7 +1,7 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
-namespace: manuela-quickstart-machine-sensor
+namespace: iot-machine-sensor
 resources:
 - machine-sensor-namespace.yaml
 bases:
@@ -25,5 +25,5 @@ configMapGenerator:
 
 images:
 - name: machine-sensor
-  newName: image-registry.openshift-image-registry.svc:5000/manuela-quickstart-machine-sensor/machine-sensor
+  newName: image-registry.openshift-image-registry.svc:5000/iot-machine-sensor/machine-sensor
   newTag: 0.3.1-8
